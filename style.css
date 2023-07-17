@@ -47,7 +47,7 @@ a:hover {
   opacity: 0.5;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1;
 }
 header {
@@ -102,6 +102,9 @@ footer {
   color: white;
 }
 @media (min-width: 43rem) {
+  h1 {
+    font-size: 5rem;
+  }
   .flex,
   aside {
     flex-direction: row;
